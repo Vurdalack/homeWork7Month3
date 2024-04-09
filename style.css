@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#time {
+    width: 50px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#start, #restart {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#count, #count-per-second {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.record {
+    color: #007bff;
+    margin-top: 20px;
+}
